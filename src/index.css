@@ -38,3 +38,10 @@ html, body, #root{
   padding:0px;
   margin:0px;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
