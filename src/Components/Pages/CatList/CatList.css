@@ -1,0 +1,16 @@
+.CatList {
+	
+}
+
+.CatList .cards-display{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.CatList .cards-display>*{
+    margin:20px;
+}

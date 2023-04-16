@@ -4,6 +4,7 @@ import App from "../../../App";
 import Home from "../../Pages/Home/Home";
 import About from "../../Pages/About/About";
 import Page404 from "../../Pages/Page404/Page404";
+import CatList from "../../Pages/CatList/CatList";
 
 function Routing(): JSX.Element {
     return (
@@ -13,6 +14,7 @@ function Routing(): JSX.Element {
                 <Route index element={<Home/>}/>
                 <Route path="home" element={<Home/>}/>
                 <Route path="about" element={<About/>}/>
+                <Route path="catList" element={<CatList/>}/>
                 <Route path="*" element={<Page404/>}/>
             </Routes>
         </div>

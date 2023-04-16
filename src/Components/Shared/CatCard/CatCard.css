@@ -1,0 +1,15 @@
+.CatCard {
+	
+    border: 2px solid; 
+    height: fit-content;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CatCard p {
+    font-size: 16px;
+}

@@ -1,5 +1,5 @@
 .App {
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 100%;
     width: 100%;
     display: grid;
@@ -8,28 +8,32 @@
  }
 
 .App > .Header{
-background-color: yellow;
+/* background-color: yellow; */
 grid-column: 12 span;
 grid-row:1 span;
 }
 
 .App > .Menu{
 
-    background-color:lightcoral;
+    /* background-color:lightcoral; */
     grid-column: 2 span;
     grid-row:10 span;
 }
 
 .App > .Main{
 
-    background-color: orangered;
+    /* background-color: orangered; */
     grid-column: 10 span;
     grid-row:10 span;
 }
 
 .App > .Footer{
 
-    background-color:turquoise;
+    /* background-color:turquoise; */
     grid-column: 12 span;
     grid-row:1 span;
+}
+
+.App button{
+    font-size: 26px;
 }
