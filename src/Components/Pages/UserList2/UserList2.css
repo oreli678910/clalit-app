@@ -1,0 +1,19 @@
+.UserList2 {
+	
+}
+.UserList2 table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .UserList2 th,
+  .UserList2 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .UserList2 th {
+    background-color: #4CAF50;
+    color: white;
+  }

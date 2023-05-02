@@ -1,0 +1,15 @@
+.UserList{
+
+}
+
+.UserList .displayUsers{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.UserList .displayUsers>*{
+    margin:20px ;
+}

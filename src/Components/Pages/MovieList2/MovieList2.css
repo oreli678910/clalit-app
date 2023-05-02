@@ -1,0 +1,36 @@
+.MovieList2 table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .MovieList2 th, .MovieList2 td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .MovieList2 th {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  
+  
+  .MovieList2 img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+  }
+
+  .MovieList2 input[type="text"] {
+    
+    font-size: 16px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px (0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  

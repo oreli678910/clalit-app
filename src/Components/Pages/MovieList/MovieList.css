@@ -1,0 +1,33 @@
+.MovieList {
+	
+}
+
+.MovieList .movies-display{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.MovieList .movies-display>*{
+    margin:20px;
+}
+
+.MovieList input[type="text"] {
+    
+        font-size: 16px;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px (0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 20px;
+      }
+      
+  
+
+

@@ -1,5 +1,4 @@
-.CatCard {
-	
+.MovieCard {
     border: 2px solid; 
     height: fit-content;
     width:fit-content;
@@ -7,9 +6,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+  }
 
-}
 
-.CatCard p {
+  .MovieCard >p{
     font-size: var(--font-medium);
-}
+  }
+  
+  .MovieCard img {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+  }
+  
+ 

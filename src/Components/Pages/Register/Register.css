@@ -1,0 +1,19 @@
+.Register {
+	
+}
+
+.Register form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Register form *{
+    margin: 10px;
+}
+
+.Register span{
+    color:red;
+    font-family: 900px;
+}

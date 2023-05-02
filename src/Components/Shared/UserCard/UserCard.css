@@ -1,5 +1,5 @@
-.CatCard {
-	
+ .UserCard {
+   
     border: 2px solid; 
     height: fit-content;
     width:fit-content;
@@ -7,9 +7,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-
-.CatCard p {
+	
+.UserCard p {
     font-size: var(--font-medium);
 }

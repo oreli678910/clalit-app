@@ -3,6 +3,7 @@ import "./CatList.css";
 import { CatModel } from "../../../Models/Cat";
 import axios from "axios";
 import CatCard from "../../Shared/CatCard/CatCard";
+import notifyService from "../../../Sevices/NotificationService";
 
 function CatList(): JSX.Element {
    const[cats, setCats]=useState<CatModel[]>([]);
@@ -10,8 +11,10 @@ function CatList(): JSX.Element {
    //Mounting
    useEffect(() => {
     axios.get<CatModel[]>('https://raw.githubusercontent.com/KobiShashs/CATS-JSON/main/cats.json')
-    .then(res => {setCats(res.data)})
-    .catch(err => { console.log(err);})
+    .then(res => {setCats(res.data);
+    notifyService.success('Meou Chatula!!!!')
+    })
+    .catch(err => {notifyService.error('oops I did it again!!!')})
    },[])
     return (
         <div className="CatList">
